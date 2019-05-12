@@ -1,0 +1,106 @@
+
+ 
+ header {
+	 
+	 display:block;
+	 text-align:center;
+	 margin:20px;
+	 height:50px;
+ }
+ div.title {
+	 background-color:rgba(2,0,200,1.00);
+	 opacity:0.6;
+	 height:70px;
+ }
+ 
+ div.title h1 {
+	 font-weight:bold;
+	 color:rgba(255,255,255,1.00);
+	 font-family:Papyrus;
+	 font-size:40px;
+ }
+ 
+ footer {
+	 clear:both;
+	 display:block;
+	 border-top:inset;
+	 text-align:center;
+	 margin:20px;
+	 background:rgba(20,201,231,1.00);
+	 height:40px;
+	 text-align:center;
+	 padding-top:20px;
+	 opacity:0.6;
+ }
+ .quote {
+	 font-family:Papyrus;
+	 font-size:18px;
+	 color:rgba(255,255,255,1.00);
+	 margin:20px;
+	 height:70px;
+	 
+ }
+ 
+ section {
+	 border-top:inset;
+	 border-bottom:inset;
+	 margin:20px;
+	 height:370px;
+ }
+ 
+ section table {
+	 margin:20px;
+	 padding:20px;
+	 height:300px;
+ }
+ 
+#form {
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:16px;
+	font-weight:100;
+}
+ 
+ body {
+	 
+	 
+ }
+
+ #menu{
+        padding: 0;
+        list-style: none;
+		width:1400px;
+		margin:20px;
+    }
+    #menu li{
+        float: left;
+        width: 126px;
+		height:60px;
+        text-align: center;
+    }
+    #menu li a{
+        display: block;
+        padding: 5px 5px;
+		height:40px;
+        color: #333;
+        background: #f2f2f2;
+        text-decoration: none;
+		font-family:Lucida Handwriting;
+    }
+    #menu li a:hover{
+        color:rgba(255,255,255,1.00);
+		opacity:0.6;
+        background:rgba(0,44,255,1.00);
+	}
+	
+	#menu li ul{
+        display: none;
+		padding:0px;
+    }
+	#menu li ul li {
+		display:block;
+		padding:0px;
+		height:50px;
+	}
+    #menu li:hover ul{
+        display: block; /* display the dropdown */
+    }
